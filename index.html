@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/CV/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">PERFIL</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/ezequiel.scholz.33/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://wa.me/+5403515152329?text=Hola"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Ezequiel Scholz,</span> Digital Developer</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Ezequiel Scholz</span> </h2>
+            <h3>Digital Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit voluptatibus blanditiis nulla adipisci iste fuga expedita, ea exercitationem dicta, similique rem, atque soluta recusandae ipsam autem. Sapiente, quo ducimus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            <a download="Curriculum Vitae Ezequiel Scholz" href="Curriculum - Ezequiel Scholz - IT.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS TRABAJOS Y ESTUDIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-computer"></i></span>
+                <h4>Help Desk IT Suport</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>INDICOM</li>
+                    <li>11/2021 - Actualidad</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-seedling"></i></span>
+                <h4>Jardineria</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>COPIJSUD</li>
+                    <li>11/2020 - 01/2021</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-hammer"></i></span>
+                <h4>Herreria</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>COPIJSUD</li>
+                    <li>06/2020 - 11/2020</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-helmet-safety"></i></span>
+                <h4>Higiene y Seguridad</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>UTN</li>
+                    <li>2022 - Actualidad</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-tractor"></i></span>
+                <h4>Bachiller en Agro y Ambiente</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Ipem 365</li>
+                    <li>2012 - 2017</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Front End</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Arg Programa 4.0</li>
+                    <li>2022 - Actualidad</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>DESTREZAS</h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>CRM</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Paquete Office</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">HABILIDADES</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/">
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Tablas dinamicas, funciones y diseño</h4>
+                    <p>Excel</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/">
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>HTML, CSS y JS</h4>
+                    <p>Front end</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/">
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Rapida digitacion en teclado de PC y Smartphone</h4>
+                    <p>Dactilografia</p>
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/">
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Certificado por Google</h4>
+                    <p>Marketing Digital</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/">
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Autodidacta</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/">
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Fluidez oral, escritura y lectura</h4>
+                    <p>Ingles</p>
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/">
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Metodologías ágiles</h4>
+                    <p>Trabajo en equipo</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/">
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Soluciones rápidas y efectivas</h4>
+                    <p>Resolución de conflictos</p>
+                </div>
+            </a>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/">
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Aprendizaje continuo</h4>
+                    <p>Adaptación al cambio</p>
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form enctype="text/plain" action="mailto:ezescholz@yahoo.com.ar" method="post">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad" required>
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad" required>
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full" required>
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full" required></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/ezequiel-scholz-636930198/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/ezequiel.scholz.33/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/+5403515152329?text=Hola"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
